@@ -1,0 +1,88 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.text{
+	font-size: 35px;
+	margin-left: 41%
+
+}
+body {
+
+		background:url("asdd.png");
+		background-size: 100%;
+
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+
+	margin: auto;
+	max-width: 750px;
+	width: 90%;
+}
+
+.principal {
+	padding: 50px 0;
+	width: 100%;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario input[type=text].error {
+	border: 5px solid #D32F2F;
+	color: red;
+}
+
+.principal .formulario .boton {
+	background: none;
+	border: 1px solid #D32F2F;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
+.footer{
+	 margin-top: 30%;
+	  color: white;
+	  text-align: center;
+	  font-family: sans-serif;
+	  background-color: black;
+	  width: 100%;
+	  border: 2px black;
+	  border-radius: 16px;
+	}
